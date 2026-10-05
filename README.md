@@ -137,6 +137,7 @@ $ python claudehopper.py --port 8082
                                            |_|   |_|
         hop in the middle of Claude's API traffic
 
+  Version  : 1.0
   Proxy    : http://localhost:8082
   Upstream : https://api.anthropic.com
   Mode     : interactive (CLI)

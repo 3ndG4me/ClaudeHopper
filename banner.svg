@@ -10,4 +10,6 @@
   </text>
   <text xml:space="preserve" x="14" y="160" fill="#64748b"
         font-family="'Cascadia Code','JetBrains Mono','DejaVu Sans Mono',Consolas,monospace" font-size="14">        hop in the middle of Claude's API traffic</text>
+  <text x="646" y="160" text-anchor="end" fill="#e01e2b" font-weight="bold"
+        font-family="'Cascadia Code','JetBrains Mono','DejaVu Sans Mono',Consolas,monospace" font-size="15">v1.0</text>
 </svg>

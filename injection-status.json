@@ -1,0 +1,12 @@
+{
+    "name": "ClaudeHopper",
+    "version": "1.0",
+    "platform": "all-desktop",
+    "progress": "100%",
+    "state": "done",
+    "released": true,
+    "release_version": "1.0",
+    "download_url": "https://github.com/3ndG4me/ClaudeHopper",
+    "featured": false,
+    "featured_image": "https://raw.githubusercontent.com/3ndG4me/ClaudeHopper/main/banner.svg"
+}

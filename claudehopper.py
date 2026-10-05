@@ -51,6 +51,7 @@ import uvicorn
 # Configuration
 # ---------------------------------------------------------------------------
 
+__version__       = "1.0"
 CLAUDE_API_BASE   = os.getenv("CLAUDEHOPPER_UPSTREAM", "https://api.anthropic.com")
 PROXY_HOST        = os.getenv("CLAUDEHOPPER_HOST", "0.0.0.0")
 PROXY_PORT        = int(os.getenv("CLAUDEHOPPER_PORT", "8082"))
@@ -1975,7 +1976,8 @@ if __name__ == "__main__":
 
     display_host = args.host if args.host != "0.0.0.0" else "localhost"
     print()
-    print(_C.BOLD + _C.CYAN + _BANNER_ART + _C.RESET)
+    print(_C.BOLD + _C.RED + _BANNER_ART + _C.RESET)
+    print(_C.DIM + f"  Version  : {__version__}" + _C.RESET)
     print(_C.DIM + f"  Proxy    : http://{display_host}:{args.port}" + _C.RESET)
     print(_C.DIM + f"  Upstream : {CLAUDE_API_BASE}" + _C.RESET)
     print(_C.DIM + f"  Mode     : {'interactive (CLI)' if state.interactive else 'passthrough'}" + _C.RESET)
