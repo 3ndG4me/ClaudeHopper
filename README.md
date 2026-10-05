@@ -485,14 +485,6 @@ pip install -r requirements.txt
 
 ---
 
-## Safety notes
-
-- ClaudeHopper terminates and re-originates HTTP to Anthropic; treat it as a **trusted man-in-the-middle on your own traffic only**.
-- Full request headers (including API keys) pass through the process memory and optional JSONL log — protect log files and the control API (bind to localhost or firewall `/__claudehopper__/`).
-- Dropping or rewriting tool calls changes agent behavior; use deliberately in lab / authorized testing contexts.
-
----
-
 ## License / status
 
 Licensed under the **BSD 3-Clause License** — see [`LICENSE`](LICENSE).
